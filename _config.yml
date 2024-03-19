@@ -13,14 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+title: franpersanchez.com 👋
+email: franpersanchez@gmail.com
+description: Exploring the world of backend software engineering - I write about interesting concepts related to communication protocols, database engineering, distributed systems and more.
+# twitter_username: username
+# github_username: username
 minimal_mistakes_skin: default
 search: true
 
@@ -29,12 +26,12 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 100 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
-  - _pages
+    - _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -42,7 +39,7 @@ include:
 # exclude:
 #   - Gemfile
 #   - Gemfile.lock
-#   - node_modules
+    - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
@@ -61,19 +58,38 @@ author:
   name   : "Fran Pérez"
   avatar : "/assets/images/bio-photo.jpeg"
   bio    : "Software engineer."
+  location: "Spain"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://franpersanchez.com"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:franpersanchez@gmail.com"
+    - label: "Resume"
+      icon: "fas fa-fw fa-file"
+      url: "/resume/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/franpersanchez/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/franpersanchez"
+    - label: "Artstation"
+      icon: "fab fa-fw fa-artstation"
+      url: "https://www.artstation.com/franperezs"
+
+# Site Footer
+footer:
+  links:
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/franpersanchez/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/franpersanchez"
 
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/franpersanchez"
+# comments:
+#   provider: "disqus"
+#   disqus:
+#     shortname: "janmeppeblog"
 
 defaults:
   # _posts
@@ -94,13 +110,25 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _projects
+  - scope:
+      path: "_projects"
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
 
-category_archive:
-  type: liquid
-  path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
+
+# These settings essentially say output index.html files for each portfolio
+# document in _portfolio at _site/portfolio/<document-filename>/.
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
   
 # fixes "No GitHub API authentication" error
 github: [metadata]

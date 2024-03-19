@@ -102,5 +102,6 @@ tag_archive:
   type: liquid
   path: /tags/
 
+  
 # fixes "No GitHub API authentication" error
 github: [metadata]

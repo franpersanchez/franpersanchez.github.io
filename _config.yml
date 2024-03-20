@@ -133,7 +133,7 @@ collections:
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "GTM-MDRK9FDZ"
+    tracking_id: "G-PDD9DXLJCD"
     anonymize_ip: false # default
   
 # fixes "No GitHub API authentication" error

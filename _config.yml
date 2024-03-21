@@ -86,10 +86,10 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/franpersanchez"
 
-# comments:
-#   provider: "disqus"
-#   disqus:
-#     shortname: "janmeppeblog"
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "https-www-franpersanchez-com"
 
 defaults:
   # _posts
@@ -118,6 +118,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
+      comments: true
 
 tag_archive:
   type: liquid

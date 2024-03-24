@@ -11,7 +11,7 @@ My name is Fran Pérez and I work as a software developer at a cybersecurity ori
 </p>
 
 <p style="text-align:justify">
-Before that, I also worked as a software developer in a R&D company called <a href="https://idener.ai/">IDENER</a> and before that, as a fresh graduate developer for <a href="https://www.solerainc.es/">SOLERA</a>.
+Before that, I also worked as a software developer in a R&D company called <a href="https://idener.ai/">IDENER</a> and as a fresh graduate developer for <a href="https://www.solerainc.es/">SOLERA</a>.
 </p>
 
 <p style="text-align:justify">

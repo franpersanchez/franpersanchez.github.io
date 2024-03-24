@@ -65,7 +65,7 @@ author:
       url: "mailto:franpersanchez@gmail.com"
     - label: "Resume"
       icon: "fas fa-fw fa-file"
-      url: "/resume/"
+      url: "/about/"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/franpersanchez/"

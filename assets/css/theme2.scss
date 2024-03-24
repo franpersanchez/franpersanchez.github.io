@@ -1,0 +1,77 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+// /* type scale */
+$type-size-1: 2.441em !default;
+$type-size-2: 1.953em !default;
+$type-size-3: 1.563em !default;
+$type-size-4: 1.25em !default;
+$type-size-5: 1.1em !default;
+$type-size-5b: 0.9em !default;
+$type-size-6: 0.8em !default;
+$type-size-7: 0.8em !default;
+$type-size-8: 0.625em !default;
+
+// ================
+
+// https://github.com/KrisvanderMast/KrisvanderMast.github.io/blob/master/assets/_scss/_variables.scss
+
+/* paragraph indention */
+$paragraph-indent           : false; // true, false (default)
+$indent-var                 : 1.3em;
+
+/* system typefaces */
+$serif                      : Georgia, Times, serif;
+$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
+
+/* sans serif typefaces */
+$sans-serif-narrow          : $sans-serif;
+$helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
+
+/* serif typefaces */
+$georgia                    : Georgia, serif;
+$times                      : Times, serif;
+$bodoni                     : "Bodoni MT", serif;
+$calisto                    : "Calisto MT", serif;
+$garamond                   : Garamond, serif;
+
+$global-font-family         : $sans-serif;
+$header-font-family         : $sans-serif;
+$caption-font-family        : $serif;
+
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin2 | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+.highlight {
+    margin: 0;
+    padding: 0.2em;
+    font-family: $monospace;
+    // font-size: $type-size-5b;
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+  
+  .archive__item-title {
+    position: relative;
+    font-size: $type-size-5;
+  }
+  
+  .author__avatar img {
+    max-width: 7em;
+    border-radius: 50%;
+  }
+  
+  .mark {
+    padding: 2px 4px;
+    font-size: 90%;
+    color:#333 ;
+    background-color: #fff;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,0.25);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,0.25);
+  }

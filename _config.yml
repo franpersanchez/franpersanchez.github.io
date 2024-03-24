@@ -18,7 +18,8 @@ email: franpersanchez@gmail.com
 description: Exploring the world of backend software engineering - I write about interesting concepts related to communication protocols, database engineering, distributed systems and more.
 # twitter_username: username
 # github_username: username
-minimal_mistakes_skin: default
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin2   : "dark"
 search: true
 
 # Build settings

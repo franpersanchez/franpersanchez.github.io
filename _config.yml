@@ -73,9 +73,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/franpersanchez"
-    - label: "Artstation"
-      icon: "fab fa-fw fa-artstation"
-      url: "https://www.artstation.com/franperezs"
 
 # Site Footer
 footer:

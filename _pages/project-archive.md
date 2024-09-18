@@ -5,4 +5,4 @@ permalink: /projects/
 collection: projects
 ---
 
-My current and past projects
+I´ll fill this page with awesome content about my projects

@@ -7,7 +7,7 @@ author_profile: true
 Hello there! 👋
 
 <p style="text-align:justify">
-I'm Fran, a Spanish software developer based in the <del>~very~</del> warm and <del>~very~</del> sunny south of Spain.
+I'm Fran, a Spanish software developer based in the <del>very</del> warm and <del>very</del> sunny south of Spain.
 
 I transitioned from a previous engineering career to software engineering in 2022. Since then, I’ve been working in the tech industry, currently at <a target="_blank" href="https://telefonicatech.com/">Telefónica Tech</a>.
 </p>
@@ -29,7 +29,7 @@ Interested in working with me? View my resume [here](https://www.franpersanchez.
 
 ## I studied here
 * <span style="text-decoration: underline;">Bachelor's Degree in Computer Science </span> from the [National University of Distance Education](https://www.uned.es/universidad/inicio/en/). Currently studying. I am dedicated to obtaining a complete and rigorous education in the field. The Spanish official university offers the possibility of studying on async mode, allowing me to balance my studies with work and personal commitments.
-* <span style="text-decoration: underline;">Higher Technician in Development of web Applications</span> from [CESUR](https://www.cesurformacion.com/). This official two-year course provided a solid foundation in software development and ignited my passion for the field.
+* <span style="text-decoration: underline;">Higher Technician in Development of web Applications</span> from [CESUR](https://www.cesurformacion.com/). This official two-year course provided me with a solid foundation in software development and ignited my passion for the field.
 * <span style="text-decoration: underline;">Bachelor's Degree in Agricultural Engineering</span> from the [University of Sevilla](https://www.us.es/). This is my former career from which I pivoted to tech industry due to a lack of technical challenges and motivation in my daily work.
 
 ## I hang around here

@@ -7,16 +7,16 @@ author_profile: true
 Hello there! 👋
 
 <p style="text-align:justify">
-I'm Fran, a Spanish software developer based in the <del>very</del> warm and <del>very</del> sunny south of Spain.
+I'm Fran, a software developer based in the <del>very</del> warm and <del>very</del> sunny south of Spain.
 
-I transitioned from a previous engineering career to software engineering in 2022. Since then, I’ve been working in the tech industry, currently at <a target="_blank" href="https://telefonicatech.com/">Telefónica Tech</a>.
+I transitioned from a previous engineering career to software engineering back in 2022. Since then, I’ve been working in the tech industry, currently at <a target="_blank" href="https://telefonicatech.com/">Telefónica Tech</a>.
 </p>
 
 <p style="text-align:justify">
 I’m passionate about programming and love collaborating to build innovative, high-quality products. To stay sharp and explore new technologies, I frequently take on small-scale projects.</p>
 
 <p style="text-align:justify">
-While I currently work primarily with Java, my personal interests lie in low-level topics such as <mark class="mark">performance optimization</mark>, <mark class="mark">database engineering</mark>, <mark class="mark">distributed systems</mark>, and languages like Go and C (yes, C!). I enjoy applying this knowledge to <mark class="mark">data-intensive</mark> applications.</p>
+While I currently work primarily with Java, my personal interests lie in low-level topics such as <mark class="mark">performance optimization</mark>, <mark class="mark">database engineering</mark>, <mark class="mark">distributed systems</mark> and languages like Go and C (yes, C!). I enjoy applying this knowledge to <mark class="mark">data-intensive</mark> applications.</p>
 
 <p style="text-align:justify">
 This is my personal web page, a humble corner in the vast ocean of internet. I'll be updating it with my projects, CV and technical notes on topics that interest me.</p>

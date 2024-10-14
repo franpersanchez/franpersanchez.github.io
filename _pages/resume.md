@@ -16,7 +16,7 @@ I transitioned from a previous engineering career to software engineering back i
 I’m passionate about programming and love collaborating to build innovative, high-quality products. To stay sharp and explore new technologies, I frequently take on small-scale projects.</p>
 
 <p style="text-align:justify">
-While I currently work primarily with Java, my personal interests lie in low-level topics such as <mark class="mark">performance optimization</mark>, <mark class="mark">database engineering</mark>, <mark class="mark">distributed systems</mark> and languages like Go and C (yes, C!). I enjoy applying this knowledge to <mark class="mark">data-intensive</mark> applications.</p>
+While I currently work primarily with Java, my personal interests lie in topics such as performance optimization, database engineering, and distributed systems. I also like to spend my free time delving into low-level languages like Go and C, building side projects and experimenting with system-level programming to deepen my understanding of concurrency, memory management, and efficient algorithms.</p>
 
 <p style="text-align:justify">
 This is my personal web page, a humble corner in the vast ocean of internet. I'll be updating it with my projects, CV and technical notes on topics that interest me.</p>
